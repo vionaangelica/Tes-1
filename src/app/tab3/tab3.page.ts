@@ -34,5 +34,6 @@ export class Tab3Page {
       console.log(error);
     })
   }
+
   
 }

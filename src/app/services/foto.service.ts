@@ -99,7 +99,7 @@ export class FotoService {
         path : foto.filePath,
         directory : FilesystemDirectory.Data
       })
-      foto.webViewPath = `data:image/jpeg;base64, $(readFile.data)`;
+      foto.webViewPath = `data:image/jpeg;base64,${readFile.data}`;
 
       }
     }
