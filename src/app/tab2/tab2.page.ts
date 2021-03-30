@@ -28,6 +28,7 @@ export class Tab2Page {
         });
       });
     }
+    alert("Foto terupload ke firebase")
   }
 
 }
