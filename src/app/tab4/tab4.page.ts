@@ -19,6 +19,7 @@ export class Tab4Page implements OnInit {
 
   async ngOnInit() {
     await this.fotoService.loadFoto();
+
   }
 
   async ionViewDidEnter(){
