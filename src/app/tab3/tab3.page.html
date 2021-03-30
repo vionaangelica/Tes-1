@@ -7,6 +7,14 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+  <!-- <IonList>
+    <IonItem *ngFor="let iFoto of urlImageStorage; index as position">
+      <IonLabel><ion-img [src]="iFoto">{{this.urlImageStorage}}></ion-img></IonLabel>
+      <IonLabel><a routerLink="../tab4/{{this.nama[index]}}">{{this.nama[index]}}</a></IonLabel>
+    </IonItem>
+  </IonList> -->
+
   <ion-grid>
     <ion-row>
         <ion-col size="3" *ngFor="let iFoto of urlImageStorage; index as position">
